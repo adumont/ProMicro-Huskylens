@@ -4,20 +4,20 @@ Play and understand how AI Classification works.
 
 ![](doc/IMG_20210102_191126.jpg)
 
-- Input: Use the 4 buttons to interactively (and iteratively) teach the model (4 possible classes).
+- Input: Use the 4 buttons to interactively (and iteratively) train the model (4 possible classes).
 - Output: At any time, see what the Huskylens detects on one of the 4 leds.
 
 Example use case:
 
 Facecover detection
 
-You can for example teach the Huskylens if the user is wearing a face cover correctly:
+You can for example train the HuskyLens to know if the user is wearing a face cover properly:
 - Red: No face cover or very badly worn
 - Yellow: Face cover is incorrectly worn (under the nose for example)
 - Green: Face cover is correctly worn
 - White: Other case (nobody in front of camera for example)
 
-How to use: Teach with the 4 buttons. If the detected class is wrong, press the corresponding button to correct the model.
+How to use: Train with the 4 buttons. If the detected class is wrong, press the corresponding button to correct the model.
 
 When you press a button, the model will learn a new frame for the class you have selected.
 
